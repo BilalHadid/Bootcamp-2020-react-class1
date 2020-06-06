@@ -7,10 +7,17 @@ const arrfun = ({name, age}) => {
     <div class="arrfun">
         <p id="subhead">Arrow function</p>
         Hello <strong>{name}</strong>
-        <ol>
-            it's order list
-            <p>Age is {age-6}</p>
+        <ol id="order">
+            <li>Order List</li>
+           <li>Sir Adil</li>
+           <li>Sir Zia</li>
+           <li>Sir Zeeshan</li>
+
         </ol>
+        <ul id="unorder">
+            <li>it's unorder list</li>
+            <li>Age is {age-6}</li>
+        </ul>
     </div>
     )
     
