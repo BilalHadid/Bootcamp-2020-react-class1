@@ -4,6 +4,7 @@ import './hello.css'
 const mediaCard = ({title,body,imageurl}) => {
     return(
         <div>
+            <h1>Media Card Task</h1>
             <h3>TITLE IS :{title}</h3>
             <table id='bodi'>
                 <th>Body:</th>

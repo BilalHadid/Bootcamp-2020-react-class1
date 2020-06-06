@@ -14,6 +14,7 @@
     text-decoration: underline;
 }
 .App{
+    padding-bottom: 50px;
     text-align: center;
     background-color: darkslategrey;
 }
@@ -31,4 +32,7 @@ p{
 #bodi{
     margin-left: 380px;
     
+}
+span{
+    color: brown;
 }
